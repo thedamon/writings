@@ -1,10 +1,12 @@
 ---
-layout: layouts/post.njk
-title: About Me
+layout: layouts/base.njk
+title: Me
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: Me
   order: 3
 ---
 
 I am a person that writes stuff.
+
+Get at my other facets: [damonmuma](https://damonmuma.com)

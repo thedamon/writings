@@ -1,0 +1,19 @@
+<ul class="postcards">
+{% for post in postslist | reverse %}
+  <li class="postcard-item{% if post.url == url %} postcard-item-active{% endif %}">
+    <a href="{{ post.url | url }}" class="postcard-link">
+        {% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}
+    </a>
+    {% if post.data.description %} 
+    <p class="postcard-description">{{post.data.description}}</p>
+    {% endif%}
+    <time class="postcard-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    <div class="postcard-tags">
+    {% for tag in post.data.tags | filterTagList %}
+      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+    {% endfor %}
+    </div>
+  </li>
+{% endfor %}
+</ul>
