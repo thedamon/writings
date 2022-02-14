@@ -4,7 +4,7 @@ date: "2014-09-07"
 updated: "2014-09-07"
 tags: 
   - "poem"
-description: Not content to be an outskirt, you have developed outskirts all your own.
+teaser: Not content to be an outskirt, you have developed outskirts all your own.
 #coverImage: "/images/jefferson-santos-fCEJGBzAkrU-unsplash.jpg"
 #coverWidth: 16
 #coverHeight: 9

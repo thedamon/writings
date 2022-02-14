@@ -4,10 +4,7 @@ date: "2014-09-06"
 updated: "2014-09-06"
 tags: 
   - "ramble"
-description: A meta-analysis of who even knows anymore. Men with sheets on their head investigate whether subways affect the passage of time.
-#coverImage: "/images/jefferson-santos-fCEJGBzAkrU-unsplash.jpg"
-#coverWidth: 16
-#coverHeight: 9
+teaser: A meta-analysis of who even knows anymore. Men with sheets on their head investigate whether subways affect the passage of time.
 ---
 
 When you get on a subway your world stops. Scientists or at least men wearing lab coats or white coats or just sheets on their heads or whatever have concluded or precluded, possibly deluded… YOU’RE ASKING TOO MANY QUESTIONS! These scientists have determined that in the time you get onto a subway car and when you leave you are in a sort of state of splendid suspended animation.

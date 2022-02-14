@@ -1,13 +1,9 @@
 ---
 title: "Foggy Brain"
 date: "2014-11-11"
-updated: "2014-11-11"
 tags: 
   - "poem"
-description: You have 18 pretty good reasons to just fucking go to bed, but none is quite the right balance of insightful, pragmatic and poetic.
-#coverImage: "/images/jefferson-santos-fCEJGBzAkrU-unsplash.jpg"
-#coverWidth: 16
-#coverHeight: 9
+teaser: You have 18 pretty good reasons to just fucking go to bed, but none is quite the right balance of insightful, pragmatic and poetic.
 ---
 
 That late that foggy brain time of late night melting like slow syrup into early morning.

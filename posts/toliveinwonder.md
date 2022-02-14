@@ -5,10 +5,7 @@ updated: "2015-05-15"
 tags: 
   - "poetry"
   - "mental health"
-description: Ahhhhh! to live in wonder!? just du it.
-#coverImage: "/images/jefferson-santos-fCEJGBzAkrU-unsplash.jpg"
-#coverWidth: 16
-#coverHeight: 9
+teaser: Ahhhhh! to live in wonder!? just du it.
 ---
 
 AH. To live in wonder.
@@ -47,4 +44,3 @@ So yes. I wonder.
 I wonder, alright, but I don’t wonder all right.
 
 Here’s to tomorrow. Here’s to later today.
-#poem

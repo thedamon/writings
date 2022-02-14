@@ -7,6 +7,17 @@ eleventyNavigation:
   order: 3
 ---
 
-I am a person that writes stuff.
 
-Get at my other facets: [damonmuma](https://damonmuma.com)
+<p>I am <a href="https://damonmuma.com">Damon Muma</a>.</p>
+
+<p>
+	I am a human <br/>
+	living  <br/>
+	on Earth, amongst her creatures<br/>
+  since the 80s <br/>
+	in London, Ontario  <br/>
+	under various lighter and darker skies  <br/>
+	who enjoys words <br/>
+  and enjoys smashing them into each other  <br/>
+	to see what meanings get refracted  <br/>when they explode  <br/>or when they start to dance.
+</p>

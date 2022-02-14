@@ -5,7 +5,8 @@ updated: "2017-05-15"
 tags: 
   - "theatre"
   - "my planet"
-description: A 1 man trailer for Fringe performers' showcase. In the voice of the show to sell it to the masses
+teaser: A 1 man trailer for Fringe performers' showcase. In the voice of the show to sell it to the masses
+note: A 1 man trailer for Fringe performers' showcase. In the voice of the show to sell it to the masses
 #coverImage: "/images/jefferson-santos-fCEJGBzAkrU-unsplash.jpg"
 #coverWidth: 16
 #coverHeight: 9

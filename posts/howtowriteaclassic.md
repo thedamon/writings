@@ -5,10 +5,7 @@ updated: "2015-03-15"
 tags: 
   - "writing advice"
   - "shenanigans"
-description: Have you been wanting to be the next person who made a classic? Only here is how I will have done it.
-#coverImage: "/images/jefferson-santos-fCEJGBzAkrU-unsplash.jpg"
-#coverWidth: 16
-#coverHeight: 9
+teaser: Have you been wanting to be the next person who made a classic? Only here is how I will have done it.
 ---
 
 I am gonna tell you how to right a stone cold fucking classic thing instead of just another piece of schlock. Don't we have enough of schlocks everywhere?
@@ -24,5 +21,3 @@ Tip say something ok? Don't just sit there and wait for somebody else to say it.
 Here's a bonus tip that could push you over the edge: maybe the characters could say something back and forth. 
 
 There! Sorry this was so stupid but good job you probably have a classic now. I knew you had it in you!
-
-#farticle

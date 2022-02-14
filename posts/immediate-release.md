@@ -2,7 +2,7 @@
 title: "For Immediate Release!"
 date: "2020-11-03"
 updated: "2021-11-01"
-description: "Local cancer cell looks to \"break the cycle\" — through an avant garde dance performance cum devised improv theatre extravaganza."
+teaser: "Local cancer cell looks to \"break the cycle\" — through an avant garde dance performance cum devised improv theatre extravaganza."
 tags: 
   - "satire"
   - "news"

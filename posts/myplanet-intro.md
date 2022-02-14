@@ -1,11 +1,13 @@
 ---
-title: "Hello (from My Planet and Me)"
+title: "Hello"
+subtitle: "(from My Planet and Me)"
 date: "2018-01-10"
 updated: "2018-01-10"
 tags: 
   - "theatre"
   - "my planet"
-description: Opening scene from the solo show I wrote and performed with EmergentSeas in 2017 and 2018.
+teaser: Opening scene from the solo show I wrote and performed with EmergentSeas in 2017 and 2018.
+note: Opening scene from the solo show I wrote and performed with EmergentSeas in 2017 and 2018.
 
 ---
 

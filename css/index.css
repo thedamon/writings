@@ -1,11 +1,27 @@
 /* Colors */
 :root {
-  --lightgray: #e0e0e0;
+  --lightgray: #e0e0e0e3;
   --gray: #C0C0C0;
   --darkgray: #333;
+  --text: var(--darkgray);
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+  --lighttext: #767676;
+}
+
+@font-face {
+	font-family: 'Lora';
+	src: url('Lora-VariableFont_wght.ttf') format('truetype supports variations'),
+       url('Lora-VariableFont_wght.ttf') format('truetype-variations');
+	font-weight: 400 700;
+}
+@font-face {
+	font-family: 'Lora';
+	src: url('Lora-Italic-VariableFont_wght.ttf') format('truetype supports variations'),
+       url('Lora-Italic-VariableFont_wght.ttf') format('truetype-variations');
+	font-style: italic;
+  font-weight: 400 700;
 }
 
 /* Global stylesheet */
@@ -20,13 +36,22 @@ html {
 body {
   padding: 0 1rem;
   margin: 0;
-  font-family: -apple-system, system-ui, sans-serif;
-  color: var(--darkgray);
+  font-family: 'Lora', -apple-system, system-ui, sans-serif;
+  color: var(--text);
   background-color: var(--white);
 }
 
 main {
   font-size: clamp(1rem, 0.8676rem + 0.5882vw, 1.25rem);
+}
+
+main h1 {
+  /* font-size: clamp(1.25rem, 0.5882rem + 2.9412vw, 2.5rem); */
+}
+
+main h1 .subtitle {
+  font-weight: normal;
+  font-size: 80%;
 }
 
 p:last-child {
@@ -41,11 +66,23 @@ p,
 .tmpl-post li {
   line-height: 1.45;
 }
+hr {
+  border-top: 1px dashed var(--lightgray);
+    border-bottom: none;
+}
 a[href] {
-  color: var(--blue);
+  color: inherit;
+  text-decoration-thickness: 0.05em;
+  text-underline-offset: 0.2em;
+  text-decoration-color: var(--lighttext);
 }
 a[href]:visited {
-  color: var(--navy);
+  color: inherit;
+}
+
+a[href]:hover {
+  text-decoration-color: var(--text);
+  text-underline-offset: 0.1em;
 }
 
 table {
@@ -54,6 +91,10 @@ table {
 table td,
 table th {
   padding-right: 1em;
+}
+
+small {
+  color: var(--lighttext);
 }
 
 /* Layout */
@@ -171,6 +212,21 @@ header {
   font-weight: 700;
 }
 
+.post-note {
+  font-style: italic;
+}
+
+.post-footer {
+  text-align: right;
+  color: #767676;
+}
+
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 33%;
+}
 
 /* Tags */
 .post-tag {
@@ -204,7 +260,14 @@ a[href].post-tag:focus {
   align-self: center;
 }
 
-/* postcards */
+/* utilities */
+
+.txt-r {
+  text-align: right;
+}
+.txt-c {
+  text-align: center;
+}
 
 .my-1 { margin-top: 1rem; margin-bottom: 1rem; }
 .mt-1 { margin-top: 1rem; }
@@ -228,17 +291,19 @@ a[href].post-tag:focus {
   margin-right: -7.25vw;
 }
 
+/* postcards */
+
 .postcards {
   list-style-type: none;
   padding: 0;
-  gap: 2em;
+  gap: 1.5em;
   display: grid;
   grid-template-columns: repeat( auto-fill, minmax(min(calc(130px + 6vmin + 6vw), 100%), 1fr) );
 }
 
 .postcard-item {
   border: 1px solid black;
-  box-shadow: black 10px 10px;
+  box-shadow: var(--lighttext) 7.5px 7.5px;
   min-width: 200px;
   padding: 1em;
   display: flex;
@@ -247,7 +312,7 @@ a[href].post-tag:focus {
 }
 
 .postcard-link {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .postcard-date,

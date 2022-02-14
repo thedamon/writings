@@ -2,27 +2,39 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1 class="mb-2">{{ title }}</h1>
+<h1 class="post-title mb-2">{{ title }} <span class="subtitle">{{ subtitle }}</span></h1>
 
-<div class="post-content mb-4">
+{%- if note %}
+<p class="post-note"><small>{{note}}</small></p>
+{%- endif %}
+
+<div class="post-content mb-8 mt-4">
 {{ content | safe }}
 </div>
 
-<hr>
-<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-{%- for tag in tags | filterTagList -%}
-{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{%- endfor %}
+<div class="post-footer">
+  <div class="attribution mb-4">
+    — {{ metadata.author.name }},  
+    <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+  </div>
+  
+  {%- for tag in tags | filterTagList -%}
+  {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+  {# <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a> #}
+  {%- endfor %}
 
-{%- if collections.posts %}
-{%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-{%- if nextPost or previousPost %}
-<hr>
-<ul>
-  {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-</ul>
+  {%- if collections.posts %}
+  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+  {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+  {%- if nextPost or previousPost %}
+  <div class="post-nav">
+    {%- if nextPost %}<div>
+    <small>Next one: <br/><a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></small>
+    </div>{% endif %}
+    {%- if previousPost %}<div>
+    <small>Previous one: <br/><a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></small>
+    </div>{% endif %}
+  </div>  
+  {%- endif %}
 {%- endif %}
-{%- endif %}
+</div>

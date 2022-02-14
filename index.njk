@@ -7,26 +7,12 @@ eleventyNavigation:
 
 <p>This is a little place on the internet <br/>
 to preserve in wax some of the words <br/>
-that sometimes drip out of my brain and onto my keyboard.</p>
-
-<p>I am Damon Muma.</p>
-
-<p>
-	I am a human <br/>
-	living  <br/>
-	on Earth, amongst her creatures<br/>
-  since the 80s <br/>
-	in London, Ontario  <br/>
-	under various lighter and darker skies  <br/>
-	who enjoys words <br/>
-  and enjoys smashing them into each other  <br/>
-	to see what meanings get refracted  <br/>when they explode  <br/>or when they start to dance.
-</p>
+that sometimes drip out of <a href="/about">my</a> brain and onto my keyboard.</p>
 
 <div class="home-posts-list mt-4">
-  {% set postslist = collections.posts | head(-3) %}
+  {% set postslist = collections.posts | head(-10) %}
   {% set postslistCounter = collections.posts | length %}
   {% include "postcards.njk" %}
 </div>
 
-<p class="mt-4"><b><a href="{{ '/posts/' | url }}">More writing?</a></b></p>
+<p class="mt-4"><b><a href="{{ '/posts/' | url }}">More writing in the archive</a></b></p>
