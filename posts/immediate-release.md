@@ -1,15 +1,10 @@
 ---
 title: "For Immediate Release!"
-date: "2020-11-03"
-updated: "2021-11-01"
+date: "2019-11-03"
 teaser: "Local cancer cell looks to \"break the cycle\" — through an avant garde dance performance cum devised improv theatre extravaganza."
 tags: 
   - "satire"
   - "news"
-#coverImage: "/images/jefferson-santos-fCEJGBzAkrU-unsplash.jpg"
-#coverWidth: 16
-#coverHeight: 9
-
 ---
 
 ** FOR IMMEDIATE RELEASE **

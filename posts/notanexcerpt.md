@@ -1,12 +1,14 @@
 ---
-title: "Not an excerpt (from My Planet and Me)"
+title: "Not an excerpt"
+subtitle: (from My Planet and Me)
 date: "2017-05-15"
 updated: "2017-05-15"
 tags: 
   - "theatre"
   - "my planet"
-teaser: A 1 man trailer for Fringe performers' showcase. In the voice of the show to sell it to the masses
-note: A 1 man trailer for Fringe performers' showcase. In the voice of the show to sell it to the masses
+  - "monologue"
+teaser: I was the point of first contact for extra-terrestrial intelligence.
+note: A short monologue for the Fringe performers' showcase to introduce My Planet and Me; adapted from material written for but cut from the play itself.
 #coverImage: "/images/jefferson-santos-fCEJGBzAkrU-unsplash.jpg"
 #coverWidth: 16
 #coverHeight: 9
