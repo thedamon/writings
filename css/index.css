@@ -1,6 +1,6 @@
 /* Colors */
 :root {
-  --lightgray: #e0e0e0e3;
+  --lightgray: #c8c8c8;
   --gray: #C0C0C0;
   --darkgray: #333;
   --text: var(--darkgray);
@@ -69,7 +69,8 @@ p,
 }
 hr {
   border-top: 1px dashed var(--lightgray);
-    border-bottom: none;
+  border-bottom: none;
+  margin: 1.5em -1.5em;
 }
 a[href] {
   color: inherit;
@@ -82,7 +83,7 @@ a[href]:visited {
 }
 
 a[href]:hover {
-  text-decoration-color: var(--text);
+  text-decoration-thickness: 0.15em;
   text-underline-offset: 0.1em;
 }
 
@@ -174,7 +175,6 @@ header {
 }
 .nav-item-active {
   font-weight: 700;
-  text-decoration: underline;
 }
 
 /* Posts list */

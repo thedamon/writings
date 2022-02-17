@@ -21,3 +21,9 @@ eleventyNavigation:
   and enjoys smashing them into each other  <br/>
 	to see what meanings get refracted  <br/>when they explode  <br/>or when they start to dance.
 </p>
+
+<hr class="my-4"/>
+
+<p><small>
+Art by <a href="https://ahpi.ca">Antony Hare</a>
+</small></p>
