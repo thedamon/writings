@@ -6,8 +6,9 @@ updated: "2018-01-10"
 tags: 
   - "theatre"
   - "my planet"
+  - "monologue"
 teaser: Opening scene from the solo show I wrote and performed with EmergentSeas in 2017 and 2018.
-note: Opening scene from the solo show I wrote and performed with EmergentSeas in 2017 and 2018.
+note: Opening scene from the solo show I wrote and performed with EmergentSeas. Presented in 2017 at the London Fringe and in 2018 at Aeoloian Hall.
 
 ---
 
@@ -15,7 +16,7 @@ I’m waiting at the bus stop.
 
 Woooooo.
 
-Ever notice the city in mid November is entirely made of brown. Light brown dark brown. Everything is some shade, even the things trying not to be. Reddy brown. Blue brown. brown brown. Lots of grey, too… in the brown. 
+Ever notice the city in mid November is entirely made of brown? Light brown dark brown. Everything is some shade; even the things trying not to be. Reddy brown. Blue brown. brown brown. Lots of grey, too… in the brown. 
 
 So I’m standing at this grey brown kerb like I’m on a tickity tickity timer. Waiting for the bus so I can climb on the bus and wait to get off the bus.
 

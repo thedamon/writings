@@ -353,3 +353,24 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+
+/* fullscreen */
+body.fullscreen .post-footer,
+body.fullscreen header {
+  display: none;
+}
+body.fullscreen main {
+  margin-top: 4rem;
+}
+
+/* darkmode */
+body.darkmode {
+  color: var(--white);
+  background-color: var(--text);
+}
+body.darkmode .post-footer {
+  color: #eee;
+}
+body.darkmode header::before {
+  filter: invert(1);
+}

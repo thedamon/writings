@@ -11,9 +11,15 @@
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
   </head>
   <body>
+    <script>
+      const urlSearchParams = new URLSearchParams(window.location.search);
+      const params = Object.fromEntries(urlSearchParams.entries());
+      for (const [key, value] of Object.entries(params)) {
+        document.body.classList.add(`${key}${value && '--'+value}`);
+      }
+    </script>
     <header>
       <h1 class="site-title"><a href="{{ '/' | url }}">
-        {# <b>Writing</b> by Damon Muma</a> #}
         damon, <b>writing.</b></a>
       </h1>
 
