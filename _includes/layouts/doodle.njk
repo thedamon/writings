@@ -9,6 +9,21 @@ templateClass: tmpl-doodle
 
 
 <div class="post-content my-8 doodle">
-{{ content | safe }}
-</pre>
+    <div class="post-content-wrap">
+    {{ content | safe }}
+    </div>
 </div>
+
+<script>
+const container = document.querySelector('.post-content');
+const content = document.querySelector('.post-content-wrap');
+document.addEventListener('scroll', function(e) {
+    let documentHeight = document.body.scrollHeight;
+    let currentScroll = window.scrollY + window.innerHeight;
+    // When the user is [modifier]px from the bottom, fire the event.
+    let modifier = 10; 
+    if( currentScroll + modifier > documentHeight) {
+        container.appendChild(content.cloneNode(true));
+    }
+})
+</script>

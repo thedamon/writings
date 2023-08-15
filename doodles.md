@@ -35,7 +35,11 @@ We had a focus group. They said we lacked it.
 
 ---
 
-I gave my bad intentions a teddy bear named Winky.Welcome to threat level central. 
+I gave my bad intentions a teddy bear named Winky.
+
+---
+
+Welcome to threat level central. 
 All night every night on the emergentsea broadcast system. 
 
 Emergent Sea level check one check one check wunnnnnnn two three four.
@@ -66,3 +70,5 @@ We had a focus group. They said we lacked it.
 ---
 
 I gave my bad intentions a teddy bear named Winky.
+
+---
