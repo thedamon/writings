@@ -33,6 +33,7 @@ html {
   padding: 0;
   margin: 0;
   background-color: var(--white);
+  scroll-behavior: smooth;
 }
 body {
   padding: 0 1rem;
@@ -322,9 +323,17 @@ a[href].post-tag:focus {
   font-weight: 700;
 }
 
+
 .postcard-date,
 .postcard-description {
   font-size: .8em;
+}
+
+
+.postcard-date {
+  text-transform: uppercase;
+  color: var(--lighttext);
+  font-size: .66em;
 }
 
 /* Warning */
@@ -354,6 +363,10 @@ a[href].direct-link:focus:visited,
   color: #aaa;
 }
 
+:focus-visible {
+  outline: 1px dashed black;
+}
+
 /* fullscreen */
 body.fullscreen .post-footer,
 body.fullscreen header {
@@ -361,6 +374,12 @@ body.fullscreen header {
 }
 body.fullscreen main {
   margin-top: 4rem;
+}
+
+.doodle {
+  /* white-space: pre; */
+  font-style: italic;
+  color: var(--lighttext);
 }
 
 /* darkmode */
