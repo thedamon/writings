@@ -4,7 +4,9 @@ eleventyNavigation:
   key: Doodles
   order: 3
 ---
-Wet cling in the chill cut air. Sliding forward with a tingy splish.
+Wet cling in the chill cut air. Dolorous tap dancing through the paper thin puddles, each one tinkle yelping at your boots. Just a little meep as you pass. 
+
+7/13ths of a block is the right amount of territory to stake claim; a set of sidewalk sections that seems manageable. Don’t go too far, just back and forth like a lolling wobble.
 
 ---
 
