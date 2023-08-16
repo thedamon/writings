@@ -6,7 +6,7 @@ eleventyNavigation:
 ---
 Wet cling in the chill cut air. Sliding forward with a tingy splish.
 
-—
+---
 
 Welcome to threat level central. 
 All night every night on the emergentsea broadcast system. 
