@@ -2,7 +2,7 @@
 {% for post in postslist | reverse %}
   <li class="postcard-item{% if post.url == url %} postcard-item-active{% endif %}">
     <a href="{{ post.url | url }}" class="postcard-link">
-        {% if post.data.title %}{{ post.data.title }} {{post.data.subtitle}}{% else %}<code>{{ post.url }}</code>{% endif %}
+        {% if post.data.title %}{{ post.data.title }} <span class="subtitle">{{post.data.subtitle}}</span>{% else %}<code>{{ post.url }}</code>{% endif %}
     </a>
     {% if post.data.teaser %} 
     <p class="postcard-description">{{post.data.teaser}}</p>

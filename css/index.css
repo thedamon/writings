@@ -322,7 +322,10 @@ a[href].post-tag:focus {
 .postcard-link {
   font-weight: 700;
 }
-
+.postcard-link .subtitle {
+  font-weight: 400;
+  font-size: 80%;
+}
 
 .postcard-date,
 .postcard-description {
