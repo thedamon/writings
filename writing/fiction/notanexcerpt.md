@@ -5,7 +5,7 @@ date: "2017-05-15"
 updated: "2017-05-15"
 tags: 
   - "theatre"
-  - "my planet"
+  - "my planet and me"
   - "monologue"
 teaser: I was the point of first contact for extra-terrestrial intelligence.
 note: A short monologue for the Fringe performers' showcase to introduce My Planet and Me; adapted from material written for but cut from the play itself.

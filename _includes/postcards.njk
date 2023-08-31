@@ -1,6 +1,6 @@
 <ul class="postcards">
 {% for post in postslist | reverse %}
-  <li class="postcard-item{% if post.url == url %} postcard-item-active{% endif %}">
+  <li class="postcard-item{% if post.url == url %} postcard-item-active{% endif %}{% if post.data.tags.includes('meta') %} postcard-item-tag--meta{% endif %}">
     <a href="{{ post.url | url }}" class="postcard-link">
         {% if post.data.title %}{{ post.data.title }} <span class="subtitle">{{post.data.subtitle}}</span>{% else %}<code>{{ post.url }}</code>{% endif %}
     </a>

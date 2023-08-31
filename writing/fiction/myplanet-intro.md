@@ -5,7 +5,7 @@ date: "2018-01-10"
 updated: "2018-01-10"
 tags: 
   - "theatre"
-  - "my planet"
+  - "my planet and me"
   - "monologue"
 teaser: Opening scene from the solo show I wrote and performed with EmergentSeas in 2017 and 2018.
 note: Opening scene from the solo show I wrote and performed with EmergentSeas. Presented in 2017 at the London Fringe and in 2018 at Aeoloian Hall.

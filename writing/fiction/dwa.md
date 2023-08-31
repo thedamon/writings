@@ -2,8 +2,9 @@
 title: "The Dramatic Weather Agency"
 date: "2016-07-10"
 tags: 
- "poem"
-teaser: .
+ - "poem"
+ - "fav"
+teaser: Never should a sunshower be wasted
 
 ---
 

@@ -4,7 +4,6 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
@@ -50,12 +49,14 @@ module.exports = function(eleventyConfig) {
   });
 
   function filterTagList(tags) {
-    return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
+    return (tags || []).filter(tag => ["all", "nav", "post", "posts", "fiction", "nonfiction"].indexOf(tag) === -1);
   }
 
   eleventyConfig.addFilter("filterTagList", filterTagList)
 
-
+  // eleventyConfig.addCollection("fiction", function (collection) {
+  //   return collection.getFilteredByGlob("./writing/fiction/*.md").reverse();
+  // });
 
   // Create an array of all tags
   eleventyConfig.addCollection("tagList", function(collection) {
@@ -84,8 +85,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLibrary);
 
 
+  eleventyConfig.addFilter("md", (markdownString) =>
+    markdownLibrary.render(markdownString)
+  );
+
   eleventyConfig.addFilter("mdi", (markdownString) =>
-  markdownLibrary.renderInline(markdownString)
+    markdownLibrary.renderInline(markdownString)
   );
   
 

@@ -2,26 +2,40 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
+{% set type = "nonfiction" if tags.includes("nonfiction") else "fiction" %}
+<div class="post post-type-{{type}}">
+
+<div class="post-header">
 <h1 class="post-title mb-2">{{ title }} <span class="subtitle">{{ subtitle }}</span></h1>
+{%- if type == "nonfiction" %}
+  <time class="sans" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+{%- endif %}
+</div>
 
 {%- if note %}
-<p class="post-note"><small>{{note }}</small></p>
+<p class="post-note"><small>{{note | mdi | safe}}</small></p>
 {%- endif %}
 
-<div class="post-content mb-8 mt-4">
+<div class="post-content post-content-{{type}} mb-8 mt-4">
 {{ content | safe }}
 </div>
 
 <div class="post-footer">
+  {%- if type == "fiction" %}
   <div class="attribution mb-4">
     — {{ metadata.author.name }},  
     <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
   </div>
+  {%- endif %}
   
-  {%- for tag in tags | filterTagList -%}
-  {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-  {# <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a> #}
-  {%- endfor %}
+  {%- if tags | filterTagList %}
+  <div class="tags mb-2">
+    {%- for tag in tags | filterTagList -%}
+    {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+    <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+    {%- endfor %}
+  </div>
+  {%- endif %}
 
   {%- if collections.posts %}
   {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
@@ -39,4 +53,5 @@ templateClass: tmpl-post
   </div>  
   {%- endif %}
 {%- endif %}
+</div>
 </div>
