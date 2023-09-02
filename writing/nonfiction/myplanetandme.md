@@ -18,8 +18,10 @@ In my production I wanted the 'one person' to be overshadowed by local collabora
 "Planet" was performed twice:
 
 First, at the 2017 London Fringe Festival,
-featuring original music by Wormwood ([more info](https://www.emergentseas.co/my-planet-fringe))
+featuring original music by Wormwood ([more info](https://www.emergentseas.co/my-planet-fringe)), and solo dance by myself (with consultation by Hannah Goldberg) — thus making it a sci fi musical.
 
 It was remounted in January 2018 at the Aeolian Hall in collaboration with multidisciplinary artists, featuring an improvised modular synth/theremin soundtrack by Timothy Glasgow, interpretive dance by Public Displays of Art, and morphing light sculptures by Matthew Trueman (who contributed a blinky planet light to the Fringe production).
 
 That show was performed one night only and the performance was our dress rehearsal too, having only had time for a rough Cue-to-cue run through beforehand. It was all very "live", which is a great thing for theatre to be.
+
+In the years following those performances, the themes/concepts and some aspects I wasn't totally pleased with from the writing point of view continue to swirl in the creative part of my brain. As a result, there are a few callback compositions here, or 'reversions' of scenes/ideas that were in the original play. If these are "for" anything other than themselves remains to be seen.
