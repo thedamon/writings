@@ -29,6 +29,15 @@
       for (const [key, value] of Object.entries(params)) {
         document.body.classList.add(`${key}${value && '--'+value}`);
       }
+
+      /* detect scrolling */
+      document.addEventListener('scroll', ()=>{
+        if (window.scrollY > 1){
+          document.body.classList.add('scrolled')
+        } else {
+          document.body.classList.contains('scrolled') && document.body.classList.remove('scrolled')
+        }
+      });
     </script>
     <header>
       <h1 class="site-title"><a href="{{ '/' | url }}">

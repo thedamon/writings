@@ -119,14 +119,24 @@ header, main, .container {
 
 header::before {
   content: '';
-  background-image: url('/img/damon-lg-tranparent.png');
-  height: 10em;
-  width: 10em;
-  left: -2em;
+  background-image: url('/img/damon-writing-animated.webp');
+  height: 9em;
+  width: 12.5em;
+  left: -5em;
   position: absolute;
   background-repeat: no-repeat;
-  background-size: 10em;
+  background-size: 14.2em;
   z-index: -1;
+}
+
+@media (prefers-reduced-motion) {
+  header::before {
+    background-image: url('/img/damon-writing.webp');
+  }
+}
+
+body.scrolled header::before {
+  background-image: url('/img/damon-writing.webp');
 }
 
 main {
