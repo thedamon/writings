@@ -5,6 +5,17 @@ eleventyNavigation:
   key: Doodles
   order: 3
 ---
+
+It doesn’t happen often, but sometimes you find a thing and it’s just what it is, and not too much more.
+
+Is what it is.
+
+Rare these days innit? For a thing to be itself?
+
+Easier, though. Less... slippery.
+
+---
+
 Sometimes do you read the name of a city and just have your brain stutter to a stop and open wide to try and let in the possibility of what it’d be like to have lived there? To have grown up in different streets and backyards. To recognize different stores and fields and buildings. To not realize that that certain assumptions and verbal ticks are grown out of that city. Every city or town, even the ones just an hour down the road is a vast bed of possibility and experience.
 
 ---

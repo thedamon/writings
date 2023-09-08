@@ -1,6 +1,6 @@
 ---
 title: "AGHFUCK"
-subtitle: "Bringer of despair"
+subtitle: "Bringer of regret"
 date: "2023-08-23"
 updated: "2023-08-23"
 tags: 
