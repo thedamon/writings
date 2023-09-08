@@ -117,9 +117,9 @@ header, main, .container {
   margin-right: auto;
 }
 
+header::after,
 header::before {
   content: '';
-  background-image: url('/img/damon-writing-animated.webp');
   height: 9em;
   width: 12.5em;
   left: -5em;
@@ -129,14 +129,23 @@ header::before {
   z-index: -1;
 }
 
-@media (prefers-reduced-motion) {
-  header::before {
-    background-image: url('/img/damon-writing.webp');
-  }
+header::before {
+  background-image: url('/img/damon-writing.webp');
+  opacity: 0
+}
+header::after {
+  background-image: url('/img/damon-writing-animated.webp');
+  opacity: 1
 }
 
-body.scrolled header::before {
-  background-image: url('/img/damon-writing.webp');
+
+@media (prefers-reduced-motion: no-preference) {
+  body.scrolled header::before {
+    opacity: 1
+  }
+  body.scrolled header::after {
+    opacity: 0
+  }
 }
 
 main {
