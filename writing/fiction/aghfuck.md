@@ -16,7 +16,7 @@ Sometimes he’s there and sometimes he’s not, but somehow I always know when 
 
 AGHFUCK. Bringer of regret. 
 
-AGHFUCK. Who half slithered and half crawled from the darkest and stupidest corner of the underworld just so he could stick his tongue inside my landlord’s ear, sign the back of my lease, and move on in with all his fleas and his sleazy bags of tricks. 
+AGHFUCK. Who half slithered and half crawled from the darkest and stupidest corner of the underworld just so he could stick his tongue inside my landlord’s ear, sign the back of my lease, and move on in with all his fleas and all his sleazy bags of tricks. 
 
 ---
 
@@ -24,13 +24,13 @@ I open the door to my apartment, forgetting what I should have been expecting. M
 
 AGHFUCK. Stomper of dicks.
 
-He’s pulled all the curtains shut and all that’s left of the light that gets through them is grime.
+He’s pulled all the curtains shut and the only light left after it filters through them is caked with grime.
 
-He blinks at me, kinda dopey looking, for all of 2 seconds before the maliciousness slams in—and glints out from his slug eyes.
+Aghfuck blinks at me, looking kinda dopey for all of 2 seconds before the maliciousness slams in, glinting out from his slug eyes.
 
 He gets to work fast this time. 
 
-You know I’ve been busy slapping that good CBT brand brain putty overtop all my You-Know-Whats. Yeah well. ￼Barely 4 seconds and he’s drilled right through to You-Know-Where. He knows how low I can go and has a plan to get me back there, stat. 
+You know I’ve been really busy slapping that good CBT brand brain putty overtop all my *You-Know-Whats*. Yeah?: Well. ￼Barely 4 seconds and he’s drilled right through to *You-Know-Where*. He knows how low I can go and has a plan to get me back there, stat.
 
 ## Hilarious roommate hijinx prank I.
 
@@ -61,7 +61,7 @@ I wonder how long until it starts to mold.
 
 I get home from a bad day at work and somehow forget that AGHFUCK is going to be sitting on the couch with nothing to do but wait for me. He’s holding my old (non-towel) brain in front of him. Prodding and poking it with his thumbs like an Xbox controller.
 
-He’s not watching the tv though. He’s watching me with dead eyes. Prod. Poke. I feel sick. 
+He’s not watching the tv though. He’s watching me with dead eyes that prod and poke inside me. I feel sick. 
 
 He opens his mouth. Instead of a swarm of scorpions, just: “It’s garbage day today.”
 
@@ -77,16 +77,16 @@ I’m half conscious of him lifting me up by the ankles and shoving me headfirst
 
 There’s a dull thudding or something and then I’m on one of those old freight elevators and it’s winching down screech ka-chung down ka-hack. Slowly. Chakack. Down. Ka-SHAck. screech. My stomach feels the weight of falling. My wet-towel-driven limbs are heavy, sloppy and useless.
 
-The elevator lurches to a halt and I am dragged across the sandpaper pavement. Ooooohhhh blessed be the moulded out dinner roll slosh that cushions my ass on this journey; but anyway a horrible pain shoots across my neck and head and I’m gone again.
+The elevator lurches to a halt and I am dragged across the sandpaper pavement. Ooooohhhh blessed be the moulded out slosh that cushions my ass on this journey; but anyway a horrible pain shoots across my neck and head and I’m gone again.
 
-There’s light now. The sun. It’s bright and awful. I’m out on the street I guess. It takes me maybe 15 minutes to figure out if I’m standing or not. I’m not. I’m lying on the sidewalk, spilling out of the ripped open garbage bag. Claw marks on the refuse around me give the distinct impression I’ve been picked over and turned down by the raccoons. Just perfect.  
+There’s light now. The sun. It’s bright and awful. I’m out on the street I guess. It takes me maybe 15 minutes to figure out if I’m standing or not. I’m not. I’m lying on the sidewalk, spilling out of the ripped open garbage bag. Claw marks on the refuse around me give the distinct impression I’ve been picked over and turned down by the raccoons. I can’t even participate in the world as the bottom of the food chain. Just perfect.  
 
-But it gets better. He left me by the garbage can right beside my regular bus stop and it’s bus catchin’ time.
+But it gets better. He left me by the garbage can right beside my regular bus stop and tick tock tick if it isn’t bus catchin’ time!
 
 I look at my hand and my wrist and waggle my stupid dead sausage fingers. I am standing now. 
 
-The people walking past can’t see the gauze or the staples in my clothes or the hole in my head. I presume. They’d like… react… if they could, right?
+The people walking past can’t see the gauze or the staples in my clothes or the hole in my head. I presume. They’d probably… react… if they could. Right?
 
-Hope the boss doesn’t notice I’ve finally come apart, either. On the bright side—nobody has before. 
+Hope the boss doesn’t notice I’ve finally literally come apart, either. On the bright side—nobody’s noticed before. 
 
 Well. Thanks, AGHFUCK. And also—I’m gonna insist on you giving all my xbox games back.

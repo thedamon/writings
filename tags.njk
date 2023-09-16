@@ -15,10 +15,16 @@ eleventyComputed:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag | slug }}/
 ---
+{%- set desc = "./_meta/tags/" + tag + ".md" -%}
+
 written things, touching on the general area of
 <h1>{{ tag }}</h1>
+
+{# {% if desc %}
+  <div>{% renderFile desc %}</div>
+{% endif %} #}
 
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 
-<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
+<p class="mt-4">List other <a href="{{ '/tags/' | url }}">taxonomies</a>.</p>

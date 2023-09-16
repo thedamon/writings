@@ -4,6 +4,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
@@ -13,6 +14,7 @@ module.exports = function(eleventyConfig) {
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginNavigation);
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   // Alias `layout: post` to `layout: layouts/post.njk`
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");

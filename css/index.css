@@ -210,11 +210,15 @@ header {
 .postlist {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
 }
 .postlist-item {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  gap: .25em;
   counter-increment: start-from -1;
   line-height: 1.8;
 }
@@ -232,6 +236,7 @@ header {
 }
 .postlist-date {
   word-spacing: -0.5px;
+  margin-right: .5em;
 }
 .postlist-link {
   padding-left: .25em;
@@ -243,6 +248,19 @@ header {
 .postlist-item-active .postlist-link {
   font-weight: bold;
 }
+
+.postlist-item-taglist .post-tag {
+  margin-left: .25em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.postlist-item-taglist {
+  font-size: 75%;
+  display: block;
+  margin-left: 0;
+}
+
 .tmpl-home .postlist-link {
   font-size: 1.1875em; /* 19px /16 */
   font-weight: 700;
@@ -321,6 +339,10 @@ a[href].post-tag:focus {
 .my-8 { margin-top: 8rem; margin-bottom: 8rem; }
 .mt-8 { margin-top: 8rem; }
 .mb-8 { margin-bottom: 8rem; }
+
+.ib {
+  display: inline-block;
+}
 
 .home-posts-list {
   margin-left: -7.25vw;
