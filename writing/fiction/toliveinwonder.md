@@ -3,7 +3,7 @@ title: "To live in wonder"
 date: "2015-05-15"
 updated: "2015-05-15"
 tags: 
-  - "poetry"
+  - "poem"
   - "mental health"
 teaser: Ahhhhh! to live in wonder!? just du it.
 ---

@@ -17,12 +17,19 @@ permalink: /tags/{{ tag | slug }}/
 ---
 {%- set desc = "./_meta/tags/" + tag + ".md" -%}
 
-written things, touching on the general area of
-<h1>{{ tag }}</h1>
+{% if desc | fsExists %}
+  <div>{% renderFileGently desc %}</div>
+  <hr/>
+  <h2>Posts</h2>
 
-{# {% if desc %}
-  <div>{% renderFile desc %}</div>
-{% endif %} #}
+
+{% else %}
+
+written things, touching on the general area of
+written things, touching on the general area of
+<h1>{{ tag | title}}</h1>
+
+{% endif %}
 
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}

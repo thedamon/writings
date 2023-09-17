@@ -3,8 +3,7 @@ title: "For Immediate Release!"
 date: "2019-11-03"
 teaser: "Local cancer cell looks to \"break the cycle\" — through an avant garde dance performance cum devised improv theatre extravaganza."
 tags: 
-  - "satire"
-  - "news"
+  - "shenanigans"
 ---
 
 ** FOR IMMEDIATE RELEASE **

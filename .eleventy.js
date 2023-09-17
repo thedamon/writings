@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const fs = require("fs");
+const path = require("node:path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
@@ -15,6 +16,20 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(EleventyRenderPlugin);
+
+  eleventyConfig.addAsyncShortcode("renderFileGently", async function (filename, data={}) {
+    // filename = path.join("./src/_includes", filename);
+    if (fs.existsSync(filename)) {
+      return eleventyConfig.javascriptFunctions.renderFile(filename, data);
+    }
+    return "";
+  });
+
+
+  eleventyConfig.addFilter("fsExists", function (filename) {
+    return fs.existsSync(filename);
+  });
+
 
   // Alias `layout: post` to `layout: layouts/post.njk`
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");

@@ -212,15 +212,14 @@ header {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: .5em;
+  gap: 1em;
 }
 .postlist-item {
   display: flex;
-  flex-wrap: wrap;
   align-items: baseline;
   gap: .25em;
   counter-increment: start-from -1;
-  line-height: 1.8;
+  line-height: 1.4;
 }
 .postlist-item:before {
   display: inline-block;
@@ -259,6 +258,7 @@ header {
   font-size: 75%;
   display: block;
   margin-left: 0;
+  margin-top: .4em;
 }
 
 .tmpl-home .postlist-link {
