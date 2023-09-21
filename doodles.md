@@ -5,6 +5,13 @@ eleventyNavigation:
   key: Doodles
   order: 3
 ---
+
+Synergy is a word you make up because you forgot to look outside and see how everything already works. Nature, while it survives, is balance; otherwise we’d be gone (our current project, apparently). 
+
+Synergy? Look outside. Brace to each yaw. The ripple of every weight creating a counterbalance. Evolving — not engineering. Evolving is turning inward. Revolving and coalescing into a whole. Finding and becoming what already works and will always work. Engineering is accelerating somewhere too fast to consider the implications.
+
+---
+
 Coreless wonder. 
 Artless blunder. 
 Drip toward the afterword. 
