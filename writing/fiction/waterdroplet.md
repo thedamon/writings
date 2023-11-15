@@ -4,12 +4,22 @@ date: 2023-09-23
 tags: 
  - "poem"
  - "nature"
-teaser: A Rumination upon dew
+teaser: A stilted rumination upon dew
 ---
 
 Be like the water droplet.
+Dew droplet.
+Whatever.
+
+---
 
 Be an implausibly perfect sphere of liquid held together by nothing but the sheer magnitudinal force of your smallness.
+
+Like a black hole
+But not like a black hole
+If you think about it
+
+---
 
 Bee ba dabee 
 a like a a a
