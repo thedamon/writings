@@ -51,8 +51,7 @@ Then it’s mush
 Then it’s dirt and worms.
 Then it’s larvae and pupae and grossiliae.
 What’s next!
-A root! A shoot! 
-A eco "system"1?
+A root! A shoot!
 
 Everybody groan.
 Everybody don’t let go of what we’ve got.
