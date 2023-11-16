@@ -48,7 +48,7 @@ Leaves don’t stick around.
 First it’s just leaves.
 Then more leaves
 Then it’s mush
-Then it’s dirt and worms.
+Then it’s dirt and and and worms.
 Then it’s larvae and pupae and grossiliae.
 What’s next!
 A root! A shoot!
