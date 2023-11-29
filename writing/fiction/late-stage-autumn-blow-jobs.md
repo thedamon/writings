@@ -94,5 +94,5 @@ a cold snap or a sudden gust
 Oh we can do it again
 We know where we stand
 
-These late-stage autumn blow jobs
+These gassy blowies
 Are all we have left
