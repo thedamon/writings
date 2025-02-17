@@ -271,6 +271,10 @@ header {
   margin-top: .4em;
 }
 
+.tmpl-doodle-body {
+  background: linear-gradient(180deg, transparent 0, white 320px);
+}
+
 .tmpl-home {
   margin-top: 1em;
 }
