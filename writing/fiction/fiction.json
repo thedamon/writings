@@ -1,7 +1,0 @@
-{
-  "tags": [
-    "posts", "fiction"
-  ],
-  "layout": "layouts/post.njk",
-  "permalink": "{{ page.fileSlug }}/index.html"
-}
