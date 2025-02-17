@@ -34,6 +34,7 @@ html {
   margin: 0;
   background-color: var(--white);
   scroll-behavior: smooth;
+  background-color: #eee;
 }
 body {
   padding: 0 1rem;
@@ -112,9 +113,14 @@ small {
 /* Layout */
 
 header, main, .container {
-  width: clamp(15em, 88vw, 60em);
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+}
+@media screen and (min-width: 500px) {
+  header, main, .container {
+    width: clamp(20em, 80vw, 60em);
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 header::after,
@@ -131,11 +137,11 @@ header::before {
 
 header::before {
   background-image: url('/img/damon-writing.webp');
-  opacity: 0
+  opacity: 0;
 }
 header::after {
   background-image: url('/img/damon-writing-animated.webp');
-  opacity: 1
+  opacity: 1;
 }
 
 
@@ -148,16 +154,20 @@ header::after {
   }
 }
 
-main {
+.post {
   padding: 1em;
+  padding-left: clamp(1em, 8vw, 8em);
+  padding-right: clamp(1em, 8vw, 8em);
+  border: solid 1px #ddd;
+  background: #fff;
 }
-@media screen and (min-width: 500px) {
-  main {
-    padding: 1em 10vw;
+@media screen and (min-width: 800px) {
+  .post {
+    padding-top: 3em;
   } 
 }
 
-main :first-child {
+.post :first-child {
   margin-top: 0;
 }
 header {
@@ -166,7 +176,7 @@ header {
   border-bottom: 1px dashed var(--lightgray);
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 
@@ -261,6 +271,10 @@ header {
   margin-top: .4em;
 }
 
+.tmpl-home {
+  margin-top: 1em;
+}
+
 .tmpl-home .postlist-link {
   font-size: 1.1875em; /* 19px /16 */
   font-weight: 700;
@@ -268,6 +282,11 @@ header {
 
 .post-note {
   font-style: italic;
+}
+
+.attribution {
+  text-align: right;
+  color: #767676
 }
 
 .post-footer {
@@ -367,6 +386,7 @@ a[href].post-tag:focus {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #fff;
 }
 
 .postcard-item-tag--meta {

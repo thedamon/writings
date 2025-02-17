@@ -16,18 +16,19 @@ templateClass: tmpl-post
 <p class="post-note"><small>{{note | mdi | safe}}</small></p>
 {%- endif %}
 
-<div class="post-content post-content-{{type}} mb-8 mt-4">
+<div class="post-content post-content-{{type}} mb-8 mt-2">
 {{ content | safe }}
 </div>
+{%- if type == "fiction" %}
+<div class="attribution">
+  — {{ metadata.author.name }},  
+  <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+</div>
+{%- endif %}
 
-<div class="post-footer">
-  {%- if type == "fiction" %}
-  <div class="attribution mb-4">
-    — {{ metadata.author.name }},  
-    <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-  </div>
-  {%- endif %}
-  
+</div>
+
+<div class="post-footer mt-4">
   {%- if tags | filterTagList %}
   <div class="tags mb-2">
     {%- for tag in tags | filterTagList -%}
@@ -53,5 +54,4 @@ templateClass: tmpl-post
   </div>  
   {%- endif %}
 {%- endif %}
-</div>
 </div>
