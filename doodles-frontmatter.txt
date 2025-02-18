@@ -1,7 +1,0 @@
----
-layout: layouts/doodle.njk
-date: Last Modified
-eleventyNavigation:
-  key: Doodles
-  order: 3
----
