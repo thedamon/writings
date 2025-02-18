@@ -117,10 +117,26 @@ header, main, .container {
 }
 @media screen and (min-width: 500px) {
   header, main, .container {
-    width: clamp(20em, 80vw, 60em);
+    width: clamp(20em, 80vw, 50em);
     margin-left: auto;
     margin-right: auto;
   }
+
+  main.tmpl-home  {
+    width: clamp(10em, 60vw, 40em);
+  }
+}
+
+.ind-1 {
+  margin-left: 1em;
+}
+
+.ind-2 {
+  margin-left: 2em;
+}
+
+.ind-3 {
+  margin-left: 3em;
 }
 
 header::after,
@@ -272,7 +288,7 @@ header {
 }
 
 .tmpl-doodle-body {
-  background: linear-gradient(180deg, transparent 0, white 320px);
+  background: linear-gradient(180deg, transparent 0, white 380px);
 }
 
 .tmpl-home {
