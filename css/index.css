@@ -76,7 +76,7 @@ img {
 }
 p,
 .tmpl-post li {
-  line-height: 1.45;
+  line-height: 1.65;
 }
 hr {
   border-top: 1px dashed var(--lightgray);
@@ -115,7 +115,7 @@ small {
 header, main, .container {
   width: 100%;
 }
-@media screen and (min-width: 500px) {
+@media (min-width: 500px) {
   header, main, .container {
     width: clamp(20em, 80vw, 50em);
     margin-left: auto;
@@ -383,9 +383,11 @@ a[href].post-tag:focus {
   display: inline-block;
 }
 
-.home-posts-list {
-  margin-left: -7.25vw;
-  margin-right: -7.25vw;
+@media (min-width: 500px) {
+  .home-posts-list {
+    margin-left: -7.25vw;
+    margin-right: -7.25vw;
+  }
 }
 
 /* postcards */
