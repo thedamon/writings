@@ -466,6 +466,10 @@ a[href].direct-link:focus:visited,
   outline: 1px dashed black;
 }
 
+.tmpl-home-body {
+  margin-bottom: 1em;
+}
+
 /* fullscreen */
 body.fullscreen .post-footer,
 body.fullscreen header {
@@ -492,3 +496,4 @@ body.darkmode .post-footer {
 body.darkmode header::before {
   filter: invert(1);
 }
+
