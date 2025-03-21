@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or "Bloglife" }}</title>
+    <meta name="description" content="{{ teaser or description or metadata.description }} ">
+
+    <meta property="og:type" content="website">
+<style>
+body { 
+  background-color: #93e7f4;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='10'><linearGradient id='gradient'><stop offset='10%' stop-color='%2393e7f4'/><stop offset='90%' stop-color='%23a9e2eb'/> </linearGradient><rect fill='url(%23gradient)' x='0' y='0' width='100%' height='100%'/></svg>");
+}
+
+h1 {
+font-size: 48px;
+color: #d212f4;
+font-weight: bold;
+}
+
+.network {
+font-size: 18px;
+text-transform: uppercase;
+color: #555;
+border: 1px solid #555;
+letter-spacing: 1ch;
+padding: 8px;
+}
+
+h2 {
+font-family: sans-serif;
+}
+
+.post-title-text {
+  border-bottom: 1px dashed gray;
+  padding-bottom: 4px;
+  display: inline-block;
+}
+
+p {font-size: 17px;}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.page {width: 960px; max-width: 100%;}
+.clearfix {display: inline-block;}
+
+main {width: 80%; float: left; }
+
+.sidenav {float: right; width: 20%; clear: both; display:flex; flex-direction: column; align-items: flex-end;}
+.sidenav > * { padding-left: 30px; }
+.sidenav ul {list-style-type: disclosure-closed; margin-top: 0;}
+footer {margin-top: 80px;}
+
+table {margin-top: 18px; border: solid 1px #777; font-family: monospace;}
+td, th {
+border: solid 1px #999;
+padding: 1ch;
+text-align: left;
+}
+tr:hover {
+background-color: #0001;
+}
+.lead, .lead p, p.lead {font-size: 24px;}
+.the-loop h2 a {color: black; text-decoration: none;}
+.the-loop h2 a:hover {background: #0001;}
+</style>
+   </head>
+  <body>
+    <header>
+      <div class="network">Blorglife</div>
+      <h1 class="site-title"><a href="{{ '/blorglife/inventorium' | url }}"><span>The Inventorium</span></a></h1>
+      <p class="tagline">— writ and archived by Dima R. —</p>
+      <hr/>
+      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+    </header>
+    <div class="page clearfix">
+      <nav class="sidenav yoyo">
+        <h3>Catalogue</h3>
+        <ul>
+        {%- for entry in collections.bloglife %}
+          <li class="site-item"><a href="{{ entry.url | url }}"><pre>{{ entry.data.id  }}</pre></a></li>
+        {%- endfor %}
+        </ul>
+      </nav>
+
+      <main>
+      {%- if not homepage %}
+        <h2>↳ {{id}}: <span class="post-title-text">{{title}}</span> ↵</h2>
+        ✼ <em class="date">Catalogued {{ page.date | fullDate }}</em>
+      {%- endif %}
+        {{ content | safe }}
+      </main>
+    </div>
+    <footer><hr/>© 2002. Rights Reserved!</footer>
+
+    <!-- Current page: {{ page.url | url }} -->
+  </body>
+</html>

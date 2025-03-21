@@ -15,6 +15,7 @@
 	src: url('Lora-VariableFont_wght-subset.woff2') format('truetype supports variations'),
        url('Lora-VariableFont_wght-subset.woff2') format('truetype-variations');
 	font-weight: 400 700;
+  background: #d212f4
 }
 @font-face {
 	font-family: 'Lora';
@@ -34,7 +35,7 @@ html {
   margin: 0;
   background-color: var(--white);
   scroll-behavior: smooth;
-  background-color: #eee;
+  background-color: #f4f4f4;
 }
 body {
   padding: 0 1rem;
@@ -77,6 +78,7 @@ img {
 p,
 .tmpl-post li {
   line-height: 1.65;
+  margin-block: 2em;
 }
 hr {
   border-top: 1px dashed var(--lightgray);
@@ -96,6 +98,13 @@ a[href]:visited {
 a[href]:hover {
   text-decoration-thickness: 0.15em;
   text-underline-offset: 0.1em;
+}
+
+blockquote {
+  border-left: 6px solid #ddd;
+  padding-left: 1em;
+  margin-left: 0;
+  color: var(--lighttext);
 }
 
 table {
@@ -179,7 +188,7 @@ header::after {
 }
 @media screen and (min-width: 800px) {
   .post {
-    padding-top: 3em;
+    padding-block: 3em;
   } 
 }
 

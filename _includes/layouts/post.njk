@@ -16,7 +16,7 @@ templateClass: tmpl-post
 <p class="post-note"><small>{{note | mdi | safe}}</small></p>
 {%- endif %}
 
-<div class="post-content post-content-{{type}} mb-8 mt-2">
+<div class="post-content post-content-{{type}} mb-4 mt-2">
 {{ content | safe }}
 </div>
 {%- if type == "fiction" %}

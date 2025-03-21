@@ -6,6 +6,8 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
+  // https://nodejs.org/api/util.html#util_util_inspect_object_options
+const inspect = require("util").inspect;
 
 module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
@@ -43,6 +45,11 @@ module.exports = function(eleventyConfig) {
   });
 
 
+
+  
+    eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
+  
+
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
@@ -71,9 +78,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("filterTagList", filterTagList)
 
-  // eleventyConfig.addCollection("fiction", function (collection) {
-  //   return collection.getFilteredByGlob("./writing/fiction/*.md").reverse();
-  // });
+  eleventyConfig.addCollection("bloglife", function (collection) {
+    return collection.getFilteredByGlob("./writing/bloglife/*.md").reverse();
+  });
 
   // Create an array of all tags
   eleventyConfig.addCollection("tagList", function(collection) {
