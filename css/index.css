@@ -124,7 +124,7 @@ small {
 header, main, .container {
   width: 100%;
 }
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   header, main, .container {
     width: clamp(20em, 80vw, 50em);
     margin-left: auto;
