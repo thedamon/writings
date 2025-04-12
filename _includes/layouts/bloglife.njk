@@ -78,23 +78,23 @@ background-color: #0001;
       <h1 class="site-title"><a href="{{ '/blorglife/inventorium' | url }}"><span>The Inventorium</span></a></h1>
       <p class="tagline">— writ and archived by Dima R. —</p>
       <hr/>
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
     </header>
     <div class="page clearfix">
+    {%- if not id == '36944' %}
       <nav class="sidenav yoyo">
         <h3>Catalogue</h3>
         <ul>
-        {%- for entry in collections.bloglife %}
+      {%- for entry in collections.bloglife %}
           <li class="site-item"><a href="{{ entry.url | url }}"><pre>{{ entry.data.id  }}</pre></a></li>
-        {%- endfor %}
+      {%- endfor %}
         </ul>
       </nav>
-
+    {%- endif %}
       <main>
-      {%- if not homepage %}
+    {%- if not homepage %}
         <h2>↳ {{id}}: <span class="post-title-text">{{title}}</span> ↵</h2>
         ✼ <em class="date">Catalogued {{ page.date | fullDate }}</em>
-      {%- endif %}
+    {%- endif %}
         {{ content | safe }}
       </main>
     </div>
